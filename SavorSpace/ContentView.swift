@@ -8,16 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isShowingLoginView = true
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                if isShowingLoginView {
+                    LoginView(isShowingLoginView: $isShowingLoginView)
+                } else {
+                    SignUpView(isShowingLoginView: $isShowingLoginView)
+                }
+                Spacer()
+                Button(action: {
+                    self.isShowingLoginView.toggle()
+                }) {
+                    Text(isShowingLoginView ? "Don't have an account? Sign Up" : "Already have an account? Log In")
+                        .foregroundColor(.blue)
+                        .fontWeight(.bold)
+                }
+                .padding()
+            }
         }
-        .padding()
     }
 }
+
 
 #Preview {
     ContentView()
