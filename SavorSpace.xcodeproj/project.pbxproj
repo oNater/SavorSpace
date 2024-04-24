@@ -26,6 +26,12 @@
 		DA9632B52BC477A60092F58E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DA9632B42BC477A60092F58E /* FirebaseAuth */; };
 		DA9632B72BC477A60092F58E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DA9632B62BC477A60092F58E /* FirebaseFirestore */; };
 		DA9632B92BC477A60092F58E /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DA9632B82BC477A60092F58E /* FirebaseFirestoreSwift */; };
+		DAAF3CB32BD606650003D20A /* MealsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF3CB22BD606650003D20A /* MealsListView.swift */; };
+		DAAF3CB52BD606980003D20A /* Meals.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF3CB42BD606980003D20A /* Meals.swift */; };
+		DAAF3CB72BD606C80003D20A /* MealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF3CB62BD606C80003D20A /* MealViewModel.swift */; };
+		DAAF3CB92BD606F70003D20A /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF3CB82BD606F70003D20A /* MealDetailView.swift */; };
+		DAAF3CBB2BD614510003D20A /* LetterSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF3CBA2BD614510003D20A /* LetterSelectionView.swift */; };
+		DAAF3CBD2BD6153C0003D20A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF3CBC2BD6153C0003D20A /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +66,12 @@
 		DA9632A32BC461200092F58E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DA9632B02BC467110092F58E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		DA9632B22BC467220092F58E /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		DAAF3CB22BD606650003D20A /* MealsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsListView.swift; sourceTree = "<group>"; };
+		DAAF3CB42BD606980003D20A /* Meals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meals.swift; sourceTree = "<group>"; };
+		DAAF3CB62BD606C80003D20A /* MealViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewModel.swift; sourceTree = "<group>"; };
+		DAAF3CB82BD606F70003D20A /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
+		DAAF3CBA2BD614510003D20A /* LetterSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterSelectionView.swift; sourceTree = "<group>"; };
+		DAAF3CBC2BD6153C0003D20A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +134,12 @@
 				DA96327B2BC45CF70092F58E /* ContentView.swift */,
 				DA9632B02BC467110092F58E /* LoginView.swift */,
 				DA8263C22BC4811E00F255EF /* HomepageView.swift */,
+				DAAF3CB42BD606980003D20A /* Meals.swift */,
+				DAAF3CBA2BD614510003D20A /* LetterSelectionView.swift */,
+				DAAF3CB62BD606C80003D20A /* MealViewModel.swift */,
+				DAAF3CBC2BD6153C0003D20A /* MainView.swift */,
+				DAAF3CB82BD606F70003D20A /* MealDetailView.swift */,
+				DAAF3CB22BD606650003D20A /* MealsListView.swift */,
 				DA9632B22BC467220092F58E /* SignUpView.swift */,
 				DA9632A32BC461200092F58E /* GoogleService-Info.plist */,
 				DA96327D2BC45CF90092F58E /* Assets.xcassets */,
@@ -299,10 +317,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAAF3CB92BD606F70003D20A /* MealDetailView.swift in Sources */,
 				DA9632B32BC467220092F58E /* SignUpView.swift in Sources */,
+				DAAF3CB72BD606C80003D20A /* MealViewModel.swift in Sources */,
+				DAAF3CB32BD606650003D20A /* MealsListView.swift in Sources */,
 				DA9632B12BC467110092F58E /* LoginView.swift in Sources */,
 				DA8263C32BC4811F00F255EF /* HomepageView.swift in Sources */,
 				DA96327C2BC45CF70092F58E /* ContentView.swift in Sources */,
+				DAAF3CBD2BD6153C0003D20A /* MainView.swift in Sources */,
+				DAAF3CBB2BD614510003D20A /* LetterSelectionView.swift in Sources */,
+				DAAF3CB52BD606980003D20A /* Meals.swift in Sources */,
 				DA96327A2BC45CF70092F58E /* SavorSpaceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
